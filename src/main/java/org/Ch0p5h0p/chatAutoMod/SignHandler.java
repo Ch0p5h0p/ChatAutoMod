@@ -1,4 +1,4 @@
-package org.originsrebirth.chatAutoMod;
+package org.Ch0p5h0p.chatAutoMod;
 
 import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;

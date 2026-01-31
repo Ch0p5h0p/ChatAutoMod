@@ -1,4 +1,4 @@
-package org.originsrebirth.chatAutoMod.processor;
+package org.Ch0p5h0p.chatAutoMod.processor;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

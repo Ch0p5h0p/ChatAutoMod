@@ -1,4 +1,4 @@
-package org.originsrebirth.chatAutoMod.processor;
+package org.Ch0p5h0p.chatAutoMod.processor;
 
 import java.util.*;
 import java.util.regex.*;

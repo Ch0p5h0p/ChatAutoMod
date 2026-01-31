@@ -1,4 +1,4 @@
-package org.originsrebirth.chatAutoMod;
+package org.Ch0p5h0p.chatAutoMod;
 
 import org.bukkit.plugin.java.JavaPlugin;
 import org.originsrebirth.chatAutoMod.processor.Config;

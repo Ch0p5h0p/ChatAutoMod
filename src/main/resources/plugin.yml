@@ -1,6 +1,6 @@
 name: ChatAutoMod
 version: '1.0-SNAPSHOT'
-main: org.originsrebirth.chatAutoMod.ChatAutoMod
+main: org.Ch0p5h0p.chatAutoMod.ChatAutoMod
 api-version: '1.21'
 commands:
   automodstring:
