@@ -28,7 +28,7 @@ public class ChatHandler implements Listener {
             Bukkit.getScheduler().runTask(plugin, () ->
                     Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), response)
             );
-
+            e.setCancelled(true);
         }
     }
 }
