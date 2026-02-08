@@ -2,7 +2,7 @@
   "responses": {
     "high": "/mute %s 300",
     "medium": "/mute %s 120",
-    "low": "/mute %s 60"
+    "low": "CENSOR"
   },
   "severityOrder": ["low","medium","high"]
 }

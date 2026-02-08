@@ -18,14 +18,8 @@ public final class ChatAutoMod extends JavaPlugin {
         }
 
         // Register listener
-        getServer().getPluginManager().registerEvents(new ChatHandler(this), this);
-        getLogger().info("Enabled chat hooks");
-
-        getServer().getPluginManager().registerEvents(new SignHandler(this), this);
-        getLogger().info("Enabled sign reader");
-
-        getServer().getPluginManager().registerEvents(new BookHandler(this), this);
-        getLogger().info("Enabled book reader");
+        getServer().getPluginManager().registerEvents(new EventHandlers(this), this);
+        getLogger().info("Enabled all events");
 
         // Register commands
         this.getCommand("automodstring").setExecutor((sender, command, label, args) -> {

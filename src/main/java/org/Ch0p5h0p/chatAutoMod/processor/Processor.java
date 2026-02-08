@@ -50,6 +50,11 @@ public class Processor {
         }
     }
 
+    public static String censor(String text) {
+        getLogger().info("Censoring: "+text);
+        return RegEx.censorBadWords(text, pattern, badWords.keySet());
+    }
+
     public static String getMasterString() {
         return masterString;
     }

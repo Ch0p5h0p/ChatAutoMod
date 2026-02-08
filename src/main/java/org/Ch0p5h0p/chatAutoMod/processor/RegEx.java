@@ -86,5 +86,17 @@ public class RegEx {
         return detected;
     }
 
+    public static String censorBadWords(String string, Pattern pattern, Set<String> badwords) {
+        Matcher matcher = pattern.matcher(string);
+        String result = string;
+
+        while (matcher.find()) {
+            int len = matcher.end()-matcher.start();
+            result = result.substring(0,matcher.start()) + "*".repeat(len) + result.substring(matcher.end());
+        }
+
+        return result;
+    }
+
 
 }
